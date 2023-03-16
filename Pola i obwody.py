@@ -6,7 +6,7 @@ while x==0:
     print("[3] Calculate the area of a circle")
     print("[4] Calculate the perimeter of a cirlce")
     print("[5] Exit\n")
-    decision=int(input("What you want to do? "))
+    decision=int(input("What do you want to do? "))
     pi=3.14
     if decision==1:
         print("\n[1] Calculate the area of a rectangle")
@@ -28,16 +28,16 @@ while x==0:
         x=0
     elif decision==3:
         print("\n[3] Calculate the area of a circle")
-        r=int(input("Enter length radian: "))
+        r=int(input("Enter length of radian: "))
         CircleArea=pi*(r*r)
-        print("Area of a circle with radian length",r,"is equal",CircleArea)
+        print("Area of a circle with radian's length",r,"is equal",CircleArea)
         yyy=input("Click any button to come back to menu\n")
         x=0
     elif decision==4:
         print("\n[4] Calculate the perimeter of a cirlce")
-        r=int(input("Enter length radian: "))
+        r=int(input("Enter length of radian: "))
         CirclePerimeter=2*pi*r
-        print("Perimeter of a circle with radian length",r,"is equal",CirclePerimeter)
+        print("Perimeter of a circle with radian's length",r,"is equal",CirclePerimeter)
         yyy=input("Click any button to come back to menu\n")
         x=0
     elif decision==5:
@@ -45,5 +45,5 @@ while x==0:
         yyy=input("Click any button to continuous..\n")
         x=1
     else:
-        print("Unknown decision. Go to menu and choose 1-5 options!\n")
+        print("Unknown decision. Go to menu and choose option from 1 to 5 !\n")
         x=0
