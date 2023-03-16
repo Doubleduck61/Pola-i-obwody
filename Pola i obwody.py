@@ -1,4 +1,4 @@
-Obliczanie pola i obwodu prostokatu i okreguprint("Hello!")
+("Hello!")
 x=0
 while x==0:
     print("\n[1] Calculate the area of a rectangle")
